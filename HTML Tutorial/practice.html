@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+</head>
+<body>
+    <p><b>Sample paragraph</b> paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample<u><i>Sample paragraph</i></u> paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraph</p>
+    <br />
+
+    <a href="https://www.youtube.com/" target="_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcznlXYGb1VoZDIHDM946FAtHZ1IGmtf_Zw&usqp=CAU"alt="google" height="100"</a>
+    <br/> 
+    <a href="/Print hello.html">Go to Hello </a>
+    <br />
+    <hr>
+    <img src="http://127.0.0.1:5500/image.jpg"alt="notebook"/>
+    <!-- <img src="/image.jpg"alt="notebook" /> -->
+    <hr>
+    <b>BOLD</b>
+    <br>
+    <i>italic</i>
+    <br>
+    <u>underlined</u>
+    <hr>
+    <big>This text seems big.</big>
+    <hr>
+    <small>This text seems small</small>
+    <hr>
+    <p><big><b>This is to write subscript like h2o</b></big></p>
+    <p>H<sub>2</sub>O</p>
+    <p><big><b>This is to write superscript like A^2 + B^2</b></big></p>
+    <p>A<sup>2</sup>+B<sup>2</sup></p>
+
+    <table>
+        <thead>
+        <caption><big><b>student data</b></big></caption>
+        <tr>
+            <th>
+                <b>Name</b>
+            </th>
+            <th>
+            <b>Roll no.</b>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <b>Aayush</b>
+            </td>
+
+            <td>
+                <b>220180102001</b>
+            </td>
+        </tr>    
+        </tbody>
+    </table>
+    <hr>
+<!-- we are learning about forms i.e. like sign up , log in etc -->
+    <form action="/action.php">
+        <input type="text" placeholder="Username">
+        <br>
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <br>
+<!-- here i understand about labels means to check or select any one option from many -->
+        <caption><b>Gender</b></caption>
+        <br>
+        <br>
+        <label>
+        <input type="radio" name="gender" value="male">male
+        <br>
+        </label>
+        <br>
+        <label>
+        <input type="radio" name="gender" value ="female">female
+        <br>
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="gender" value="others">others
+        </label>
+        <br><br>
+        <p><b> select your subjects.</b></p>
+
+        <!-- the checkbox is used when we need to select multiple option -->
+        <label>
+            <input type="checkbox" value="maths" name="subject">maths
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" value="phy" name="subject">phy
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" value="chemistry" name="subject">chemistry
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" value="CS" name="subject">CS
+        </label>
+        <br><br>
+        <!-- now if we need to select any city from dropdown button we use the select tag -->
+
+        <caption> select your city.</caption>
+        <br>
+        <select name="city">
+            <option value="select">select</option>
+            <option value="Almora">Almora</option>
+            <option value="Bageshwar">Bageshwar</option>
+            <option value="Delhi">Delhi</option> 
+        </select>
+        <br><br>
+        <textarea name="Feedback" placeholder="please give your feedback here" rows="5"></textarea>
+        <input type="submit" value="SUBMIT">
+    </form>
+
+
+</body>
+</html>
