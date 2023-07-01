@@ -5,7 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Print hello</title>
 </head>
-<body>
-    <h1>Hello!</h1>
-</body>
+    <body>
+            <h1>Hello!</h1>
+            <form action="helllo.php">
+                <div>
+                    <label for="username">Enter username:</label>
+                    <input type="text" placeholder="username" id="username" name="id" minlength="5" maxlength="18"required>
+                    <!-- by this min and max we set a limit i.e. the user will enter/ fill its entity between these letters ..THESE ARE THE HTML VALIDATIONS  -->
+                </div>
+                <br>
+                <p>
+                    <div>
+                        <label for="user">Enter password:</label>
+                        <input type="password" placeholder="password" id="user" name="pass" minlength="5" maxlength="18"required >
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <label for="number">Choose a number</label>
+                        <input type="number" id="number" name="num" min="1" max="25">
+                    </div>
+                </p>
+                <div>
+                    <label for="date">Choose your birthday</label>
+                    <input type="date" id="date" name="dob" max="2023-07-02">
+                </div><br>
+                <!-- there are two methods for the submit button  -->
+                <button>submit"</button>
+                <!-- <input type="submit" value="click me!"> -->
+            </form>
+            <hr>
+            <!-- By this we can do search anything like the google do -->
+            <!-- it is like hijacking searches -->
+            <h2>Hijacking searches</h2>
+            <h3>searching google&#128514;</h3>
+            <form action="https://www.google.com/search?channel=fs&client=ubuntu-sn&">
+                <!-- required se ye hota ki kuch conditions mil jaati hai jaise ki tumhara password 8-14 letters ke beech me hona chahiye ... THESE ARE THE HTML VALIDATIONS-->
+                 <input type="text" name="q" required> <!--the required will tell the user to fill something -->
+                <input type="submit" value="search Google">
+            </form>
+            <b> &reg; </b>
+    </body>
 </html>

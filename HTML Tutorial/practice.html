@@ -6,7 +6,7 @@
     <title>My first page</title>
 </head>
 <body>
-    <p><b>Sample paragraph</b> paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample<u><i>Sample paragraph</i></u> paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraph</p>
+    <p><b>Sample paragraph</b> paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample<big><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis omnis vero architecto maxime sit, natus ipsum velit itaque labore voluptatum optio iure ab enim et ex sunt inventore ratione?</b></big> paragraphSample<u><i>Sample paragraph</i></u> paragraphSample paragraphSample paragraphSample paragraphSample paragraphSample paragraph</p>
     <br />
 
     <a href="https://www.youtube.com/" target="_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcznlXYGb1VoZDIHDM946FAtHZ1IGmtf_Zw&usqp=CAU"alt="google" height="100"</a>
@@ -69,8 +69,8 @@
         <caption><b>Gender</b></caption>
         <br>
         <br>
-        <label>
-        <input type="radio" name="gender" value="male">male
+        <label for="gender">
+        <input type="radio" id="gender" name="gender" value="male">male
         <br>
         </label>
         <br>
@@ -106,9 +106,9 @@
         <!-- now if we need to select any city from dropdown button we use the select tag -->
 
         <caption> select your city.</caption>
-        <br>
+    
         <select name="city">
-            <option value="select">select</option>
+            <option value="select"selected>select</option>
             <option value="Almora">Almora</option>
             <option value="Bageshwar">Bageshwar</option>
             <option value="Delhi">Delhi</option> 
