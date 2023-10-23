@@ -1,0 +1,95 @@
+
+header{
+    height: 60px;
+    width:100%;
+    background-color: #c9c19f;
+    border: 1.5px solid black;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+}
+nav{
+    width: 700px;
+    height: 20px;
+    /* background-color:#87c38f; */
+    
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    display: inline-flex;
+    justify-content:space-between;
+}
+body{
+    background-color: #4361ee;
+}
+a{
+    color: #003e1f;
+    text-decoration: none;
+}
+
+#name{
+    font-size:30px;
+}
+main{
+    position: relative;
+    top: 42px;
+}
+
+#content{
+    height: 500px;
+    width: 695px;
+    background-color: #e6ccb2;
+    
+}
+
+#pic{
+    height: 400px;
+    width: 650px;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+    background-color: #ccd5ae;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    position: sticky;
+    top: 99%;
+    background-color: #edede9;
+}
+
+#social{
+    height: 160px;
+    width: 300px;
+    background-color: #e9c46a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#insta_pic{
+    height: 50px;
+    width: 70px;
+    border-radius: 10%;
+}
+#facebook_pic{
+    height: 50px;
+    width: 70px;
+    border-radius: 10%;
+}
+#twitter_pic{
+    height: 50px;
+    width: 70px;
+    border-radius: 10%;
+}
+#copy{
+    background-color: pink; 
+    display: flex;
+    justify-content: center;
+    position: static;
+    bottom: 0px;
+    /* right: 50%; */
+}

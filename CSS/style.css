@@ -1,0 +1,38 @@
+/* h1{
+    color: red;
+} */
+*{
+    font-weight: 400;
+}
+
+/* h1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration : rgb(74, 211, 142) underline ;
+    letter-spacing: .1rem; /* add some spacing between letters
+    font-size: 70px;
+}
+p{
+    font-weight: 500;
+    line-height: 2em;
+} */ 
+*{
+    background-color: #b8c0ff;/* this is example of universal selector*/
+}
+*/
+#h1{
+    color: #660708;/* this is the example of id selector*/
+}
+.same{
+    color: blueviolet;
+}
+.para{
+    color: lightsalmon;
+    background-color: rgb(21, 155, 110);
+}
+#button{
+    color: rgb(231, 5, 137);
+    border: 3;
+    background-color: rgb(240, 209, 209);
+    border-color: black;
+}
